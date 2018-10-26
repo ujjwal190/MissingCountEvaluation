@@ -1,0 +1,6 @@
+ColumnName		MissingCount					Percentage
+address				130					13.0
+first_name			0					0.0
+state				30					3.0
+web				0					0.0
+zip				11					1.1
