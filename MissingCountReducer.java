@@ -63,9 +63,9 @@ class MissingCountReducer extends Reducer<Text, IntWritable, Text, Text>
             }
           }
         } 
-        // finally 
-        // {
-          // cleanup(context);
-        // }
+        finally 
+        {
+          cleanup(context);
+        }
   }
 }

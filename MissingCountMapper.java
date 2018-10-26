@@ -57,9 +57,9 @@ class MissingCountMapper extends Mapper<LongWritable, Text, Text, IntWritable>
             map(context.getCurrentKey(), context.getCurrentValue(), context);
           }
         } 
-        // finally 
-        // {
-          // cleanup(context);
-        // }      
+        finally 
+        {
+          cleanup(context);
+        }      
   }
 }
